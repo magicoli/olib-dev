@@ -1,0 +1,22 @@
+{
+  "name": "samuelvanille",
+  "version": "0.2.4",
+  "description": "Samuel Vanille - WooCommerce custom tailored additions",
+  "author": "Magiiic",
+  "license": "AGPL-3.0-or-later",
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git@git.magiiic.com:wordpress/samvanille-woocommerce-additions.git"
+  },
+  "keywords": [
+    "Lot number",
+    "Traceability",
+    "WooCommerce",
+    "Batch number"
+  ],
+  "private": true,
+  "workspaces": [
+    "src/oli-brary"
+  ]
+}
