@@ -105,7 +105,7 @@ module.exports = function(grunt, pluginName) {
             options: {
                 separator: '\n\n', // Add a new line between files
             },
-            src: ['README.md', 'FAQ.md', 'CHANGELOG.md'],
+            src: ['README.md', 'INSTALLATION.md', 'FAQ.md', 'CHANGELOG.md'],
             dest: 'readme-temp-md-1-concat.md',
         },
         combine: {
