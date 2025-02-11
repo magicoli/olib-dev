@@ -3,7 +3,7 @@ module.exports = function( grunt ) {
     'use strict';
 
     // Define the plugin name
-    const pluginName = 'YOURPLUGINNAME';
+    const pluginName = 'my-plugin';
 
     // Project configuration
     // Obsolete, library uses grunt.config.set() instead, but keep it in case we revert back
@@ -12,7 +12,7 @@ module.exports = function( grunt ) {
 	// } );
 
     // Load shared custom tasks with pluginName
-    require('./src/oli-brary/grunt-custom-tasks.js')(grunt, pluginName);
+    require('./src/olib-dev/grunt-custom-tasks.js')(grunt, pluginName);
 
     grunt.util.linefeed = '\n';
 
