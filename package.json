@@ -3,8 +3,8 @@
     "type": "wordpress-library",
     "version": "1.0.0",
     "scripts": {
-        "build": "wp-scripts build; i18n",
-        "start": "wp-scripts start; i18n",
+        "build": "wp-scripts build && grunt i18n",
+        "start": "wp-scripts start && grunt i18n",
         "format": "wp-scripts format",
         "lint:css": "wp-scripts lint-style",
         "lint:js": "wp-scripts lint-js",
@@ -12,8 +12,7 @@
         "plugin-zip": "wp-scripts plugin-zip",
         "grunt": "grunt default",
         "readme": "grunt makereadmetxt",
-        "i18n": "grunt i18n",
-        "php-loader": "^0.2.0"
+        "i18n": "grunt i18n"
     },
     "devDependencies": {
         "@wordpress/scripts": "^30.9.0",
