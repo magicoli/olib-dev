@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "My plugin description",
   "workspaces": [
-    "src/olib-dev"
+    "dev/olib-dev"
   ]
 }
