@@ -1,4 +1,6 @@
-# Grunt WP plugin tasks (formally barely known as olib-dev)
+# Grunt WP plugin tasks
+
+(formerly barely known as olib-dev)
 
 Dev libraries that might or might not be useful for WordPress plugin.
 
