@@ -1,5 +1,5 @@
 {
-    "name": "oli-brary",
+    "name": "grunt-wp-plugin-tasks",
     "type": "wordpress-library",
     "version": "1.0.0",
     "scripts": {
