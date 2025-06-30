@@ -1,6 +1,8 @@
-# grunt-wp-plugin-tasks
+# Grunt WP plugin tasks (formally barely known as olib-dev)
 
-Dev libraries that might or might not be useful.
+Dev libraries that might or might not be useful for WordPress plugin.
+
+See the sister project [magicoli/grunt-translation-tasks](https://github.com/magicoli/grunt-translation-tasks) to use in a generic project (using gettext insttead of WP-specific framework).
 
 ## Provides
 
